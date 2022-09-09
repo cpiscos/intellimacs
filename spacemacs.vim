@@ -42,8 +42,8 @@ source ~/.intellimacs/spacemacs/leader.vim
 
 source ~/.intellimacs/spacemacs/misc.vim
 
-let g:WhichKeyDesc_NarrowNumbers = "<leader>n    +narrow/numbers"
-source ~/.intellimacs/spacemacs/narrow-numbers.vim
+" let g:WhichKeyDesc_NarrowNumbers = "<leader>n    +narrow/numbers"
+" source ~/.intellimacs/spacemacs/narrow-numbers.vim
 
 let g:WhichKeyDesc_Projects = "<leader>p    +projects"
 source ~/.intellimacs/spacemacs/projects.vim

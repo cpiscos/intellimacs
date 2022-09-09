@@ -20,10 +20,10 @@ nnoremap <leader>xd<Space>    wh:action EditorHungryBackSpace<CR>
 vnoremap <leader>xd<Space>    <Esc>wh:action EditorHungryBackSpace<CR>
 """ ---------------------------------------------
 
-" Alternate string inflection (CamelCase plugin required)
-let g:WhichKeyDesc_Text_ToggleCamelCase = "<leader>xi toggle-camel-case"
-nnoremap <leader>xi    :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
-vnoremap <leader>xi    :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
+"" " Alternate string inflection (CamelCase plugin required)
+let g:WhichKeyDesc_Text_ToggleCamelCase = "<leader>xi toggle-snake-camel-case"
+nnoremap <leader>xi    :action StringManipulation.ToSnakeCaseOrCamelCase<CR>
+vnoremap <leader>xi    :action StringManipulation.ToSnakeCaseOrCamelCase<cr>
 
 " Move lines down
 let g:WhichKeyDesc_Text_MoveLinesDown = "<leader>xJ move-lines-down"
@@ -58,3 +58,6 @@ vnoremap <leader>xU    U
 let g:WhichKeyDesc_Text_DowncaseRegion = "<leader>xu downcase-region"
 nnoremap <leader>xu    vu
 vnoremap <leader>xu    u
+
+let g:WhichKeyDesc_Text_Escape_Menu = "<leader>x<esc> escape-text-menu"
+nnoremap <leader>x<esc> <esc>

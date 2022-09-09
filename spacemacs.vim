@@ -32,8 +32,8 @@ source ~/.intellimacs/spacemacs/git-vcs.vim
 let g:WhichKeyDesc_Help = "<leader>h    +help"
 source ~/.intellimacs/spacemacs/help.vim
 
-let g:WhichKeyDesc_Insertion = "<leader>i    +insertion"
-source ~/.intellimacs/spacemacs/insertion.vim
+" let g:WhichKeyDesc_Insertion = "<leader>i    +insertion"
+" source ~/.intellimacs/spacemacs/insertion.vim
 
 let g:WhichKeyDesc_JumpJoinSplit = "<leader>j    +jump/join/split"
 source ~/.intellimacs/spacemacs/jump-join-split.vim
